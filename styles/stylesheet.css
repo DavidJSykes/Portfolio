@@ -1,0 +1,17 @@
+body {
+    background-image: url("../images/material-background-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.title {
+    color: silver;
+    font-size: 48px;
+}
+
+.subtitle {
+    color: silver;
+    font-size: 36px;
+}

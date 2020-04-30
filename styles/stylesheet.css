@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
     font-family: 'Roboto Mono', monospace;
     margin: auto;
-    width: 50%;
+    width: 50vw;
     text-align: center;
 }
 
@@ -40,4 +40,23 @@ footer {
 
 strong {
     font-size: 125%;
+}
+
+nav {
+    margin: 0 10vw;
+}
+
+nav ul {
+    flex-direction: row-reverse;
+}
+
+nav li {
+    list-style-type: none;
+    color: white;
+    margin: 0 2vw;
+    font-size: 3vh;
+}
+
+.flex {
+    display: flex;
 }
